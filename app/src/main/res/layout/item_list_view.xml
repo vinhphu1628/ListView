@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txtMssv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="18dp"
+        android:text="TextView"
+        android:textColor="@android:color/holo_green_light"
+        tools:text="Mssv" />
+
+    <TextView
+        android:id="@+id/txt_mssv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtMssv"
+        android:layout_alignStart="@+id/txtMssv"
+        android:layout_below="@+id/txtMssv"
+        android:layout_marginTop="29dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/txtMssv"
+        android:layout_marginEnd="78dp"
+        android:layout_marginRight="78dp"
+        android:text="TextView"
+        android:textColor="@android:color/holo_orange_dark"
+        tools:text="Nhiet do" />
+
+    <TextView
+        android:id="@+id/txt_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtTemperature"
+        android:layout_alignStart="@+id/txtTemperature"
+        android:layout_alignTop="@+id/txt_mssv"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtHumid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_mssv"
+        android:layout_alignStart="@+id/txt_mssv"
+        android:layout_below="@+id/txt_mssv"
+        android:layout_marginTop="33dp"
+        android:text="TextView"
+        android:textColor="@android:color/holo_blue_light"
+        tools:text="Do Am" />
+
+    <TextView
+        android:id="@+id/txt_humid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtHumid"
+        android:layout_alignStart="@+id/txtHumid"
+        android:layout_below="@+id/txtHumid"
+        android:layout_marginTop="38dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_temperature"
+        android:layout_alignStart="@+id/txt_temperature"
+        android:layout_alignTop="@+id/txtHumid"
+        android:text="TextView"
+        android:textColor="@android:color/holo_purple"
+        tools:text="Thoi gian" />
+
+    <TextView
+        android:id="@+id/txt_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtTime"
+        android:layout_alignStart="@+id/txtTime"
+        android:layout_alignTop="@+id/txt_humid"
+        android:text="TextView"
+        tools:text="27/03/2018" />
+</RelativeLayout>
